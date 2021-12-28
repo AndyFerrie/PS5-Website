@@ -35,6 +35,7 @@ header .desktop {
     justify-content: space-between;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+    height: 4rem;
 }
 
 header a {
@@ -42,10 +43,8 @@ header a {
     text-decoration: none;
   }
 
-header .logo img {
+.logo img {
     height: 50px;
-    object-fit: contain;
-    object-position: left;
 }
 
 header nav ul {
