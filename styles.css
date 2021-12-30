@@ -1,3 +1,4 @@
+/* Breakpoint 900px */
 /* Fonts */
 
 @font-face {
@@ -38,8 +39,18 @@ body {
     max-width: 100%;
 }
 
+h2 {
+    font-size: 2.75rem;
+    font-weight: 300;
+}
+
 h4 {
     font-weight: 400;
+}
+
+sup {
+    font-size: 11px;
+    padding-left: 2px;
 }
 
 /* Header */
@@ -135,10 +146,7 @@ header li {
     line-height: 1.5;
 }
 
-.section2 sup {
-    font-size: 11px;
-    padding-left: 2px;
-}
+
 
 .section2 span {
     font-size: 16px;
@@ -182,12 +190,11 @@ header li {
 
 .section3 .bottom-videos {
     display: flex;
+    justify-content: center;
     margin-top: 2rem;
 }
 
 .section3 h2 {
-    font-size: 2.75rem;
-    font-weight: 300;
     padding: 2rem 0rem;
 }
 
@@ -197,6 +204,18 @@ header li {
     font-size: 14px;
 }
 
+.section4 {
+    display: flex;
+}
+
 .section4 video {
     width: 100%;
 }
+
+.section4 .text-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin: 250px 5% 0px 75%;
+}
+
