@@ -279,6 +279,8 @@ header li {
     left: 0;
 }
 
+/* Solution on how to rotate image https://flaviocopes.com/rotate-image/ */
+
 .section6 .circle {
     position: absolute;
     top: 0;
