@@ -40,8 +40,8 @@ body {
 }
 
 h2 {
-    font-size: 2.75rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-family: 'sst light';
 }
 
 h4 {
@@ -51,6 +51,11 @@ h4 {
 sup {
     font-size: 11px;
     padding-left: 2px;
+}
+
+p {
+    font-family: 'sst light';
+
 }
 
 /* Header */
@@ -146,8 +151,6 @@ header li {
     line-height: 1.5;
 }
 
-
-
 .section2 span {
     font-size: 16px;
 }
@@ -160,6 +163,8 @@ header li {
     font-family: 'mont heavy';
     font-size: 14px;
 }
+
+/* Section 3 */
 
 .section3 {
     display: flex;
@@ -204,18 +209,90 @@ header li {
     font-size: 14px;
 }
 
-.section4 {
+/* Section 4 & 5 */
+
+.section4, .section5 {
     display: flex;
 }
 
-.section4 video {
+.section4 video, .section5 video {
     width: 100%;
+    margin-bottom: -5px;
 }
 
 .section4 .text-container {
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin: 250px 5% 0px 75%;
+    margin: 200px 5% 0px 70%;
 }
 
+.section5 .text-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin: 80px 10% 0px 65%;
+}
+
+.section5 .button {
+    align-self: flex-start;
+    background-color: #0072ce;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 32px;
+    margin-top: 20px;
+}
+
+.section5 .button:hover {
+    background-color: white;
+    color: #0072ce;
+    transition: all 0.2s ease-in-out;
+}
+
+.section4 h2, .section5 h2 {
+    font-family: 'sst light';
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 3.425rem;
+}
+
+/* Section 6 */
+
+.section6 {
+    background-color: #d8dce8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6 .text-container {
+    margin: 100px 25% 0px 50%;
+    position: absolute;
+}
+
+.section6 .image-container {
+    width: 60%;
+    margin-top: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.section6 .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    margin: 40% 42%;
+    animation: rotation 40s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
