@@ -339,7 +339,41 @@ header ul a:hover {
 
 .section8 .text-container {
     position: absolute;
-    margin: 100px 70% 0px 5%;
+    margin: 100px 70% 0px 4rem;
+   
 }
 
+/* Section 9 */
 
+.section9 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section9 .content {
+  display: grid;
+  grid-template-columns: auto 560px 70px;
+}
+
+.section9 .top-shadow {
+    align-self: flex-end;
+}
+
+.section9 .top-shadow img {
+    height: 70px;
+}
+
+.section9 .left {
+    padding: 100px 9rem 0rem 4rem;
+}
+
+.section9 .right {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+}
+
+.section9 .right-shadow img {
+    height: 824px;
+    width: 70px;
+}
