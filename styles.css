@@ -350,17 +350,15 @@ header ul a:hover {
     flex-direction: column;
 }
 
+.section9 .top-shadow {
+    display: grid;
+    grid-template-columns: auto 61%;
+}
+
 .section9 .content {
   display: grid;
-  grid-template-columns: auto 560px 70px;
-}
-
-.section9 .top-shadow {
-    align-self: flex-end;
-}
-
-.section9 .top-shadow img {
-    height: 70px;
+  grid-template-columns: 37% 56% 7%;
+  overflow: hidden;
 }
 
 .section9 .left {
@@ -370,10 +368,4 @@ header ul a:hover {
 .section9 .right {
     display: flex;
     flex-direction: column;
-    width: 560px;
-}
-
-.section9 .right-shadow img {
-    height: 824px;
-    width: 70px;
 }
