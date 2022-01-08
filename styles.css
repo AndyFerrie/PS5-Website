@@ -17,11 +17,16 @@
     src: url(/Fonts/mont/Mont-HeavyDEMO.otf);
 }
 
+html {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     margin: 0;
     padding: 0;
     border: 0;
-    width: 100%;
     font-family: 'sst';
     background-color: #d8dce8;
 }
@@ -92,6 +97,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
+    max-width: 1920px;
     height: 4rem; 
     background-color: white;
 }
@@ -349,7 +355,7 @@ header ul a:hover {
 .section9, .section10, .section11 {
     display: flex;
     flex-direction: column;
-    margin: 10%; 
+    margin: 0% 10%; 
 }
 
 .section9 .top-shadow, .section11 .top-shadow {
@@ -388,4 +394,25 @@ header ul a:hover {
 
 .section10 .right {
     padding: 20%;
+}
+
+/* Section 12 */
+
+.section12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section12 .text-container {
+    position: absolute;
+}
+
+.section12 h2 {
+    font-family: 'Mont Heavy';
+    font-weight: 800;
+    font-size: 77px;
+    color: white;
+    margin: 0;
+    text-align: center;
 }
