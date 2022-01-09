@@ -171,7 +171,7 @@ header ul a:hover {
 .section2 .icon-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin: 10% 20%;
     border-bottom: 1px solid white;
 }
@@ -379,7 +379,7 @@ header ul a:hover {
 
 .section10 .top-shadow {
     display: grid;
-    grid-template-columns: 61% auto;
+    grid-template-columns: 63% auto;
 }
 
 .section10 .content {
@@ -394,6 +394,10 @@ header ul a:hover {
 
 .section10 .right {
     padding: 20%;
+}
+
+.right-shadow {
+    width: 100%;
 }
 
 /* Section 12 */
