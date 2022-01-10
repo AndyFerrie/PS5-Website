@@ -61,6 +61,11 @@ h2 {
     margin: 0% 0% 10%;
 }
 
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 h4 {
     font-weight: 400;
     font-size: 16px;
@@ -420,3 +425,38 @@ header ul a:hover {
     margin: 0;
     text-align: center;
 }
+
+/* Section 13 Carousel */
+
+.section13 {
+    background-image: linear-gradient(180deg,#1000fe,#002fc3);
+    color: white;
+}
+
+.section13 .carousel-cell {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    padding: 5%;
+    counter-increment: gallery-cell;
+}
+
+.section13 img {
+    border-radius: 5%;
+}
+
+.section13 p {
+    font-size: 13px;
+}
+
+.section13 .button {
+    background-color: white;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.section13 .button:hover {
+    background-color: black;
+    color: white;
+}
+
