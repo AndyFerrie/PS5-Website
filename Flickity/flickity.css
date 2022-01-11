@@ -45,13 +45,14 @@ https://flickity.metafizzy.co
   
   .flickity-button {
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
+    background: hsla(0, 0%, 100%);
     border: none;
     color: #333;
   }
   
   .flickity-button:hover {
     background: white;
+    border: 2px solid #64e0fa;
     cursor: pointer;
   }
   
@@ -78,16 +79,16 @@ https://flickity.metafizzy.co
   /* ---- previous/next buttons ---- */
   
   .flickity-prev-next-button {
-    top: 50%;
+    top: 30%;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     /* vertically center */
-    transform: translateY(-50%);
+    transform: none;
   }
   
-  .flickity-prev-next-button.previous { left: 10px; }
-  .flickity-prev-next-button.next { right: 10px; }
+  .flickity-prev-next-button.previous { left: 34.5%; }
+  .flickity-prev-next-button.next { right: 36%; }
   /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {
     left: auto;
@@ -123,10 +124,10 @@ https://flickity.metafizzy.co
   
   .flickity-page-dots .dot {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     margin: 0 8px;
-    background: #333;
+    background: white;
     border-radius: 50%;
     opacity: 0.25;
     cursor: pointer;
@@ -134,5 +135,6 @@ https://flickity.metafizzy.co
   
   .flickity-page-dots .dot.is-selected {
     opacity: 1;
+    box-shadow: 0 0 10px 2px #fff;
   }
   
