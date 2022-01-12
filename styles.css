@@ -1,3 +1,5 @@
+/* 1042 First Breakpoint */
+
 /* Fonts */
 
 @font-face {
@@ -142,7 +144,7 @@ header ul a:hover {
     transition: all 0.2s ease-in-out 0.2s;
 }
 
-/* Section 1 */
+/* Section 1 Hero */
 
 .section1 {
     display: flex;
@@ -157,15 +159,15 @@ header ul a:hover {
 .section1 .hero {
     display: flex;
     flex-direction: column;
-    margin: 150px 100px;
-    width: 246px;
+    margin: 5%;
+    width: 30%;
 }
 
 .section1 .image-container {
     margin: 1rem 0rem;
 }
 
-/* Section 2 */
+/* Section 2 Icons */
 
 .section2 {
     display: flex;
@@ -211,7 +213,7 @@ header ul a:hover {
     font-size: 14px;
 }
 
-/* Section 3 */
+/* Section 3 Videos */
 
 .section3 {
     display: flex;
@@ -275,7 +277,7 @@ header ul a:hover {
     margin-top: 0%;
 }
 
-/* Section 4 & 5 */
+/* Section 4 (Adaptive Triggers) & 5 (Haptic Feedback) */
 
 .section4, .section5 {
     display: flex;
@@ -289,14 +291,14 @@ header ul a:hover {
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin: 20% 5% 0px 70%;
+    margin: 20% 5% 0% 70%;
 }
 
 .section5 .text-container {
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin: 10% 10% 0px 65%;
+    margin: 10% 10% 0% 65%;
 }
 
 .section4 h2, .section5 h2 {
@@ -306,7 +308,7 @@ header ul a:hover {
     line-height: 3.425rem;
 }
 
-/* Section 6 */
+/* Section 6 Speak Easily */
 
 .section6 {
     display: flex;
@@ -315,7 +317,7 @@ header ul a:hover {
 }
 
 .section6 .text-container {
-    margin: 10% 25% 0px 50%;
+    margin: 10% 20% 0% 50%;
     position: absolute;
 }
 
@@ -347,7 +349,7 @@ header ul a:hover {
     }
   }
 
-/* Section 7 */
+/* Section 7 Create & Share */
 
 .section7 {
     display: grid;
@@ -363,7 +365,7 @@ header ul a:hover {
     margin-bottom: 3rem;
 }
 
-/* Section 8 */
+/* Section 8 Warp */
 
 .section8 {
     display: grid;
@@ -371,16 +373,15 @@ header ul a:hover {
 
 .section8 .text-container {
     position: absolute;
-    margin: 10% 70% 0px 4rem;
+    margin: 10% 70% 0% 5%;
    
 }
 
-/* Section 9, 10 & 11 */
+/* Section 9 (Vibrant Colours), 10 (Realism) & 11 (4K) */
 
 .section9, .section10, .section11 {
     display: flex;
     flex-direction: column;
-    margin: 0% 10%; 
 }
 
 .section9 .top-shadow, .section11 .top-shadow {
@@ -394,7 +395,7 @@ header ul a:hover {
 }
 
 .section9 .left, .section11 .left {
-    padding: 20%;
+    padding: 10% 20%;
 }
 
 .section9 .right, .section11 .right {
@@ -412,20 +413,24 @@ header ul a:hover {
     grid-template-columns: 56% 7% 37%;
 }
 
+.section10 {
+    padding-left: 7%;
+}
+
 .section10 .left {
     display: flex;
     flex-direction: column;
 }
 
 .section10 .right {
-    padding: 20%;
+    padding: 10% 20% 20% 13%;
 }
 
 .right-shadow {
     width: 100%;
 }
 
-/* Section 12 */
+/* Section 12 New Worlds */
 
 .section12 {
     display: flex;
@@ -446,7 +451,7 @@ header ul a:hover {
     text-align: center;
 }
 
-/* Section 13 Carousel */
+/* Section 13 Game Carousel */
 
 .section13 {
     background-image: linear-gradient(180deg,#1000fe,#002fc3);
@@ -502,7 +507,7 @@ header ul a:hover {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-/* Section 14 */
+/* Section 14 Playstation Plus */
 
 .section14 {
     display: flex;
@@ -542,7 +547,7 @@ header ul a:hover {
     padding: 5% 0%;
 }
 
-/* Section 15 */
+/* Section 15 Links */
 
 .section15 {
     color: white;
@@ -558,7 +563,7 @@ header ul a:hover {
 
 .section15 .links-container {
     display: flex;
-    width: 80%;
+    width: 85%;
     justify-content: space-between;
 }
 
@@ -578,18 +583,19 @@ header ul a:hover {
 
 .section15 p {
     margin-top: 0%;
+    font-size: 1rem;
 }
 
 .section15 h2 {
     font-size: 77px;
     font-family: 'mont heavy';
-    width: 60%;
+    width: 65%;
     text-align: center;
     margin: 10% auto 5%;
 }
 
 .section15 h3 {
-    font-size: 38.5px;
+    font-size: 30px;
     font-family: 'sst light';
 }
 
