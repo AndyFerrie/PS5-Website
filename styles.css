@@ -509,15 +509,15 @@ header ul a:hover {
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
-    height: 100vh;
 }
 
 .section14 .main-content {
     display: flex;
     width: 60%;
-    align-items: baseline;
     margin: 5%;
+    align-items: center;
 }
 
 .section14 .logo {
@@ -536,4 +536,86 @@ header ul a:hover {
 .section14 .button:hover {
     background-color: black;
     color: white;
+}
+
+.section14 .games {
+    padding: 5% 0%;
+}
+
+/* Section 15 */
+
+.section15 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 2%;
+}
+
+.section15 .links-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.section15 .links-cell {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section15 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.section15 p {
+    margin-top: 0%;
+}
+
+.section15 h2 {
+    font-size: 77px;
+    font-family: 'mont heavy';
+    width: 60%;
+    text-align: center;
+    margin: 10% auto 5%;
+}
+
+.section15 h3 {
+    font-size: 38.5px;
+    font-family: 'sst light';
+}
+
+.section15 .button {
+    background-color: white;
+    color: black;
+}
+
+.section15 .button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00439c;
+}
+
+footer .content {
+    width: 20%;
+    padding: 5%;
+    color: white;
+}
+
+footer img {
+    padding: 5%;
+    width: 50%;
 }
