@@ -4,18 +4,18 @@
 
 @font-face {
     font-family: 'sst';
-    src: url(/Fonts/sst-cufonfonts/SSTRg.TTF);
+    src: url(./Fonts/sst-cufonfonts/SSTRg.TTF);
 }
 
 @font-face {
     font-family: 'sst light';
-    src: url(/Fonts/sst-cufonfonts/SSTLight.TTF);
+    src: url(./Fonts/sst-cufonfonts/SSTLight.TTF);
 }
 
 @font-face {
     font-family: 'mont heavy';
     font-weight: 800;
-    src: url(/Fonts/mont/Mont-HeavyDEMO.otf);
+    src: url(./Fonts/mont/Mont-HeavyDEMO.otf);
 }
 
 html {
