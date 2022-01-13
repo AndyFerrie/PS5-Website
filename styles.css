@@ -671,6 +671,7 @@ header ul a:hover {
 .section15 .links-container {
     display: flex;
     width: 80%;
+    padding-bottom: 5%;
 }
 
 .section15 .row1 {
@@ -747,12 +748,17 @@ footer {
 }
 
 footer .content {
-    width: 30%;
-    padding: 5%;
+    width: 90%;
+    padding: 3%;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer img {
+    width: 15%;
+}
+
+footer small {
     width: 50%;
-    padding-bottom: 5%;
 }
