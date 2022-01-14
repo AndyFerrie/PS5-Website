@@ -426,6 +426,7 @@ header ul a:hover {
 .section6 .text-container {
     margin: 10% 20% 0% 50%;
     position: absolute;
+    left: 0;
 }
 
 .section6 .image-container {
