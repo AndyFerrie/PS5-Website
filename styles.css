@@ -105,7 +105,7 @@ p {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1023px) {
     .thumbnail {
         display: block;
     }
@@ -415,6 +415,20 @@ header ul a:hover {
     line-height: 3.425rem;
 }
 
+@media only screen and (max-width: 1023px) {
+    .section5 .text-container {
+        margin: 5% 5% 0% 65%;
+    }
+
+    .section4 h2, .section5 h2 {
+        margin-bottom: 0%;
+    }
+
+    .section5 a {
+        margin-top: 0%;
+    }
+}
+
 /* Section 6 Speak Easily */
 
 .section6 {
@@ -433,9 +447,25 @@ header ul a:hover {
     width: 60%;
     margin-top: 300px;
     position: relative;
-    top: 0;
-    left: 0;
 }
+
+@media only screen and (max-width: 1023px) {
+    .section6 .text-container {
+        display: grid;
+        grid-template-columns: 55% 40%;
+        margin: 10% 10% 0%;
+    }
+
+    .section6 h2 {
+        margin-right: 5%;
+    }
+
+    .section6 .image-container {
+        margin-top: 150px;
+        width: 80%;
+    }
+}
+
 
 /* Solution on how to rotate image https://flaviocopes.com/rotate-image/ */
 
