@@ -301,6 +301,7 @@ header ul a:hover {
 /* Section 1 Hero */
 
 .section1 {
+    background-image: url(./Images/PS5.png);
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -308,6 +309,7 @@ header ul a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 688px;
 }
 
 .section1 .hero {
@@ -321,15 +323,19 @@ header ul a:hover {
     margin: 1rem 0rem;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 766px) {
+    .section1 {
+        background-image: url(./Images/hardware-beauty-xs@2x.jpg);
+        justify-content: center;
+    }
     .section1 .hero {
-        width: 40%;
+        width: 35%;
     }
 }
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (max-width: 600px) {
     .section1 .hero {
-        width: 20%;
+        width: 70%;
     }
 }
 
@@ -1046,4 +1052,19 @@ footer img {
 
 footer small {
     width: 50%;
+}
+
+@media only screen and (max-width: 766px) {
+    footer img {
+        width: 25%;
+    }
+    footer small {
+        width: 70%
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        font-size: 12px;
+    }
 }
