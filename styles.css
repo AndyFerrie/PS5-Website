@@ -81,6 +81,19 @@ p {
     margin: 0px 0px 40px;
 }
 
+hr {
+    display: none;
+}
+
+@media only screen and (max-width: 766px) {
+    hr {
+        display: block;
+        width: 70%;
+        border: 0.5px solid #b0b5bd;
+        height: 0px;
+    }
+}
+
 /* Font Size & Margin Media Queries */
 
 @media only screen and (max-width: 1365px) { 
@@ -398,7 +411,7 @@ header ul a:hover {
     background-size: cover, contain;
     justify-content: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
     font-family: 'sst light';
 }
 
@@ -475,6 +488,26 @@ header ul a:hover {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .section3 .row1, .section3 .row2 {
+        flex-direction: column;
+    }
+
+    .section3 .main-video {
+        width: 80%;
+    }
+
+    .section3 .video-container {
+        padding-top: 0%;
+        padding-bottom: 3%;
+    }
+
+    .section3 .bottom-videos {
+        margin-top: 0%;
+    }
+
+}
+
 /* Section 4 (Adaptive Triggers) & 5 (Haptic Feedback) */
 
 .section4, .section5 {
@@ -514,6 +547,61 @@ header ul a:hover {
     .section5 .text-container {
         margin: 5% 5% 0% 65%;
     }
+}
+
+@media only screen and (max-width: 766px) {
+
+    .section5 .text-container, .section4 .text-container {
+        width: 50%;
+    }
+
+    .section4 .text-container {
+        margin: 70% 10% 5% 45%;
+    }
+
+    .section5 .text-container {
+        margin: 10% 10% 0% 45%;
+    }
+
+    .section4 .video-container, .section5 .video-container {
+        overflow: hidden;
+    }
+
+    .section4 .video-container {
+        padding-bottom: 15%;
+    }
+
+    .section5 .thumbnail {
+        transform: scale(1.4);
+        transform-origin: 75% 35%
+    }
+
+    .section5 .video-container {
+        padding-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 642px) {
+    .section4 .text-container {
+        margin: 60% 10% 5% 60%;
+    }
+
+    .section5 .text-container {
+        margin: 20% 10% 5% 60%;
+    }
+
+    .section5 .thumbnail {
+        transform: scale(1.2);
+        transform-origin: 85% 35%
+    }
+
+    .section4 .text-container, .section5 .text-container {
+        width: 35%
+    }
+
+    .section4 .video-container {
+        padding-bottom: 35%;
+    }
 
 }
 
@@ -523,6 +611,7 @@ header ul a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1%;
 }
 
 .section6 .text-container {
@@ -539,22 +628,60 @@ header ul a:hover {
 
 @media only screen and (max-width: 1023px) {
     .section6 .text-container {
-        display: grid;
-        grid-template-columns: 55% 40%;
+        display: flex;
         margin: 10% 10% 0%;
     }
 
     .section6 h2 {
         margin: 0% 5% 0% 0%;
+        width: 50%;
     }
 
     .section6 p {
-        margin: 0%;
+        width: 50%;
     }
 
     .section6 .image-container {
-        margin-top: 150px;
+        margin-top: 10%;
         width: 80%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .section6 .image-container {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .section6 .text-container {
+        flex-direction: column;
+    }
+    .section6 h2 {
+        width: 80%;
+    }
+
+    .section6 p {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .section6 .image-container {
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .section6 .image-container {
+        margin-top: 50%;
+    }
+
+    .section6 h2 {
+        width: 100%;
+    }
+
+    .section6 p {
+        width: 100%;
     }
 }
 
@@ -579,6 +706,12 @@ header ul a:hover {
     }
   }
 
+@media only screen and (max-width: 479px) {
+    .section6 .circle {
+        animation: none;
+    }
+}
+
 /* Section 7 Create & Share */
 
 .section7 {
@@ -589,6 +722,16 @@ header ul a:hover {
 
 .section7 .left {
     padding: 10% 20%;
+}
+
+@media only screen and (max-width: 766px) {
+    .section7 {
+        display: block;
+    }
+
+    .section7 .left {
+        padding: 15% 20% 0%;
+    }
 }
 
 /* Section 8 Warp */
