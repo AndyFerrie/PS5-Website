@@ -115,6 +115,12 @@ p {
 
 /* Mont Heavy Font H2 Media Queries */
 
+@media only screen and (min-width: 1366px) {
+    .section12 h2, .section15 h2 {
+        font-size: 77px;
+    }
+}
+
 @media only screen and (max-width: 1365px) {
     .section12 h2, .section15 h2 {
         font-size: 67.375px;
@@ -624,7 +630,6 @@ header ul a:hover {
 .section12 h2 {
     font-family: 'Mont Heavy';
     font-weight: 800;
-    font-size: 77px;
     color: white;
     margin: 0;
     text-align: center;
@@ -800,7 +805,6 @@ header ul a:hover {
 }
 
 .section15 h2 {
-    font-size: 77px;
     font-family: 'mont heavy';
     width: 65%;
     text-align: center;
