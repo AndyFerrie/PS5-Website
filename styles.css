@@ -103,7 +103,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
     h2 {
         font-size: 29.75px;
     }
@@ -127,7 +127,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
     .section12 h2, .section15 h2 {
         font-size: 40.25px;
     }
@@ -219,6 +219,15 @@ header ul a:hover {
         display: none;
     }
 
+@media only screen and (max-width: 765px) {
+    header {
+        justify-content: flex-end;
+    }
+    .logo img {
+        height: 40px;
+    }
+}
+
     /* The dropdown container */
 .dropdown {
     float: left;
@@ -299,6 +308,18 @@ header ul a:hover {
     margin: 1rem 0rem;
 }
 
+@media only screen and (max-width: 479px) {
+    .section1 .hero {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .section1 .hero {
+        width: 20%;
+    }
+}
+
 /* Section 2 Icons */
 
 .section2 {
@@ -343,6 +364,27 @@ header ul a:hover {
 .section2 h3 {
     font-family: 'mont heavy';
     font-size: 14px;
+}
+
+@media only screen and (max-width: 765px) {
+    .section2 .icon-container {
+        margin: 10%;
+    }
+
+    .section2 .description {
+        margin: 0% 10% 10%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .section2 .icon-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 .icon {
+        margin-bottom: 10%;
+    }
 }
 
 /* Section 3 Videos */
@@ -700,7 +742,7 @@ header ul a:hover {
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 767px) {
     .section13 .carousel-cell {
         width: 40%;
     }
