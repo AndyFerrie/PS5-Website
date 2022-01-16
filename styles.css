@@ -92,7 +92,19 @@ hr {
         border: 0.5px solid #b0b5bd;
         height: 0px;
     }
+
+    .hr {
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 479px) {
+    .hr {
+        display: block;
+    }
+}
+
+
 
 /* Font Size & Margin Media Queries */
 
@@ -611,6 +623,44 @@ header ul a:hover {
 
 }
 
+@media only screen and (max-width: 479px) {
+    .section4, .section5 {
+        display: block;
+    }
+    .section5 {
+        padding-bottom: 5%;
+    }
+
+    .section4 .thumbnail {
+        transform: scale(1.4);
+        transform-origin: 0% 0%;
+    }
+
+    .section4 .text-container {
+        position: relative;
+        margin: 0% 10% 10%;
+        width: 50%;
+    }
+
+    .section4 .video-container {
+        padding-bottom: 30%;
+    }
+
+    .section5 .text-container {
+        position: relative;
+        margin: 5% 10% 10%;
+        width: 50%;
+    }
+
+    .section5 .thumbnail {
+        padding-top: 10%;
+    }
+
+    .section5 .video-container {
+        padding-top: 0%;
+    }
+}
+
 /* Section 6 Speak Easily */
 
 .section6 {
@@ -635,7 +685,7 @@ header ul a:hover {
 @media only screen and (max-width: 1023px) {
     .section6 .text-container {
         display: flex;
-        margin: 10% 10% 0%;
+        margin: 5% 10% 10%;
     }
 
     .section6 h2 {
@@ -736,7 +786,8 @@ header ul a:hover {
     }
 
     .section7 .left {
-        padding: 15% 20% 0%;
+        padding: 10%;
+        width: 50%;
     }
 }
 
