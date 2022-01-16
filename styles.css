@@ -177,7 +177,7 @@ hr {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .thumbnail {
         display: block;
     }
@@ -764,6 +764,24 @@ header ul a:hover {
 .section8 .text-container {
     position: absolute;
     margin: 10% 60% 0% 5%;
+}
+
+.section8 .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .section8 .desktop {
+        display: none;
+    }
+
+    .section8 .mobile {
+        display: block;
+    }
+
+    .section8 .text-container {
+        position: relative;
+    }
 }
 
 /* Section 9 (Vibrant Colours), 10 (Realism) & 11 (4K) */
