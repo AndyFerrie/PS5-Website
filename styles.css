@@ -85,7 +85,7 @@ hr {
     display: none;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
     hr {
         display: block;
         width: 70%;
@@ -98,13 +98,11 @@ hr {
     }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .hr {
         display: block;
     }
 }
-
-
 
 /* Font Size & Margin Media Queries */
 
@@ -117,7 +115,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     h2 {
         margin: 0px 0px 16px;
         font-size: 38.5px;
@@ -128,7 +126,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     h2 {
         font-size: 29.75px;
     }
@@ -152,7 +150,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .section12 h2, .section15 h2 {
         font-size: 40.25px;
     }
@@ -179,7 +177,7 @@ hr {
     display: none;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 768px) {
     .thumbnail {
         display: block;
     }
@@ -233,18 +231,18 @@ header ul a:hover {
     transition: all 0.2s ease-in-out 0.2s;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     nav .dropdown {
         display: none;
     }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     nav .desktop {
         display: none;
     }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 768px) {
     header {
         justify-content: flex-end;
     }
@@ -335,7 +333,7 @@ header ul a:hover {
     margin: 1rem 0rem;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
     .section1 {
         background-image: url(./Images/hardware-beauty-xs@2x.jpg);
         justify-content: center;
@@ -397,7 +395,7 @@ header ul a:hover {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 768px) {
     .section2 .icon-container {
         margin: 10%;
     }
@@ -407,7 +405,7 @@ header ul a:hover {
     }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .section2 .icon-container {
         flex-direction: column;
         align-items: center;
@@ -492,7 +490,7 @@ header ul a:hover {
     margin-top: 0%;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .section3 .main-video {
         width: 70%;
     }
@@ -506,7 +504,7 @@ header ul a:hover {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .section3 .row1, .section3 .row2 {
         flex-direction: column;
     }
@@ -532,26 +530,15 @@ header ul a:hover {
     display: flex;
 }
 
-.section5 a {
-    align-self: flex-start;
-}
-
 .section4 video, .section5 video {
     margin-bottom: -5px;
 }
 
-.section4 .text-container {
+.section4 .text-container, .section5 .text-container {
     display: flex;
     position: absolute;
     flex-direction: column;
-    margin: 20% 5% 0% 70%;
-}
-
-.section5 .text-container {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    margin: 10% 10% 0% 65%;
+    
 }
 
 .section4 h2, .section5 h2 {
@@ -561,15 +548,27 @@ header ul a:hover {
     line-height: 3.425rem;
 }
 
-@media only screen and (max-width: 1023px) {
+.section4 .text-container {
+    margin: 20% 5% 0% 70%;
+}
+
+.section5 .text-container {
+    margin: 10% 10% 0% 65%;
+}
+
+.section5 a {
+    align-self: flex-start;
+}
+
+@media only screen and (max-width: 1024px) {
     .section5 .text-container {
         margin: 5% 5% 0% 65%;
     }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
 
-    .section5 .text-container, .section4 .text-container {
+    .section4 .text-container, .section5 .text-container {
         width: 50%;
     }
 
@@ -589,17 +588,22 @@ header ul a:hover {
         padding-bottom: 15%;
     }
 
+    .section5 .video-container {
+        padding-top: 40%;
+    }
+
     .section5 .thumbnail {
         transform: scale(1.4);
         transform-origin: 75% 35%
     }
-
-    .section5 .video-container {
-        padding-top: 40%;
-    }
 }
 
 @media only screen and (max-width: 642px) {
+
+    .section4 .text-container, .section5 .text-container {
+        width: 35%
+    }
+
     .section4 .text-container {
         margin: 60% 10% 5% 60%;
     }
@@ -608,22 +612,17 @@ header ul a:hover {
         margin: 20% 10% 5% 60%;
     }
 
-    .section5 .thumbnail {
-        transform: scale(1.2);
-        transform-origin: 85% 35%
-    }
-
-    .section4 .text-container, .section5 .text-container {
-        width: 35%
-    }
-
     .section4 .video-container {
         padding-bottom: 35%;
     }
 
+    .section5 .thumbnail {
+        transform: scale(1.2);
+        transform-origin: 85% 35%
+    }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .section4, .section5 {
         display: block;
     }
@@ -636,14 +635,14 @@ header ul a:hover {
         transform-origin: 0% 0%;
     }
 
+    .section5 .thumbnail {
+        padding-top: 10%;
+    }
+
     .section4 .text-container {
         position: relative;
         margin: 0% 10% 10%;
         width: 50%;
-    }
-
-    .section4 .video-container {
-        padding-bottom: 30%;
     }
 
     .section5 .text-container {
@@ -652,8 +651,8 @@ header ul a:hover {
         width: 50%;
     }
 
-    .section5 .thumbnail {
-        padding-top: 10%;
+    .section4 .video-container {
+        padding-bottom: 30%;
     }
 
     .section5 .video-container {
@@ -682,62 +681,26 @@ header ul a:hover {
     position: relative;
 }
 
-@media only screen and (max-width: 1023px) {
-    .section6 .text-container {
-        display: flex;
-        margin: 5% 10% 10%;
-    }
+@media only screen and (max-width: 1024px) {
 
-    .section6 h2 {
-        margin: 0% 5% 0% 0%;
-        width: 50%;
+    .section6 {
+        display: block;
     }
-
-    .section6 p {
-        width: 50%;
-    }
-
-    .section6 .image-container {
-        margin-top: 10%;
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 766px) {
-    .section6 .image-container {
-        margin-top: 20%;
-    }
-}
-
-@media only screen and (max-width: 479px) {
     .section6 .text-container {
         flex-direction: column;
-    }
-    .section6 h2 {
-        width: 80%;
-    }
-
-    .section6 p {
-        width: 80%;
-        margin-top: 5%;
+        display: flex;
+        margin: 10% 10% 0%;
+        width: 35%;
+        position: relative;
     }
 
     .section6 .image-container {
-        margin-top: 40%;
-    }
-}
-
-@media only screen and (max-width: 399px) {
-    .section6 .image-container {
-        margin-top: 50%;
-    }
-
-    .section6 h2 {
+        margin: 0%;
         width: 100%;
     }
 
     .section6 p {
-        width: 100%;
+        margin-bottom: 0%;
     }
 }
 
@@ -762,7 +725,7 @@ header ul a:hover {
     }
   }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .section6 .circle {
         animation: none;
     }
@@ -780,7 +743,8 @@ header ul a:hover {
     padding: 10% 20%;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
+
     .section7 {
         display: block;
     }
@@ -800,7 +764,6 @@ header ul a:hover {
 .section8 .text-container {
     position: absolute;
     margin: 10% 60% 0% 5%;
-   
 }
 
 /* Section 9 (Vibrant Colours), 10 (Realism) & 11 (4K) */
@@ -936,19 +899,19 @@ header ul a:hover {
 
 /* Carousel Media Queries */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .section13 .carousel-cell {
         width: 30%;
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .section13 .carousel-cell {
         width: 40%;
     }
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 480px) {
     .section13 .carousel-cell {
         width: 60%;
     }
@@ -1069,7 +1032,7 @@ header ul a:hover {
     color: white;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .section15 .links-container {
         display: inline;
     }
@@ -1105,7 +1068,7 @@ footer small {
     width: 50%;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
     footer img {
         width: 25%;
     }
