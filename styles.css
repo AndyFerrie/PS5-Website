@@ -92,16 +92,6 @@ hr {
         border: 0.5px solid #b0b5bd;
         height: 0px;
     }
-
-    .hr {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .hr {
-        display: block;
-    }
 }
 
 /* Font Size & Margin Media Queries */
@@ -131,7 +121,7 @@ hr {
         font-size: 29.75px;
     }
     p {
-        margin: 0px 0px 24px;
+        margin: 0% 0% 10%;
         font-size: 14px;
     }
 }
@@ -561,66 +551,33 @@ header ul a:hover {
 
 @media only screen and (max-width: 768px) {
 
+    .section4, .section5 {
+        display: block;
+    }
+
     .section4 .text-container, .section5 .text-container {
+        position: relative;
+        margin: 10%;
         width: 50%;
-    }
-
-    .section4 .text-container {
-        margin: 70% 10% 5% 45%;
-    }
-
-    .section5 .text-container {
-        margin: 10% 10% 0% 45%;
     }
 
     .section4 .video-container, .section5 .video-container {
         overflow: hidden;
     }
 
-    .section4 .video-container {
-        padding-bottom: 15%;
+    .section4 p {
+        margin-bottom: 0%;
     }
 
-    .section5 .video-container {
-        padding-top: 40%;
-    }
-
-    .section5 .thumbnail {
+    .section5 .thumbnail { 
         transform: scale(1.4);
         transform-origin: 75% 35%
-    }
-}
-
-@media only screen and (max-width: 642px) {
-
-    .section4 .text-container, .section5 .text-container {
-        width: 35%
-    }
-
-    .section4 .text-container {
-        margin: 60% 10% 5% 60%;
-    }
-
-    .section5 .text-container {
-        margin: 20% 10% 5% 60%;
-    }
-
-    .section4 .video-container {
-        padding-bottom: 35%;
-    }
-
-    .section5 .thumbnail {
-        transform: scale(1.2);
-        transform-origin: 85% 35%
-    }
+    } 
 }
 
 @media only screen and (max-width: 480px) {
     .section4, .section5 {
         display: block;
-    }
-    .section5 {
-        padding-bottom: 5%;
     }
 
     .section4 .thumbnail {
@@ -633,13 +590,11 @@ header ul a:hover {
     }
 
     .section4 .text-container {
-        position: relative;
         margin: 0% 10% 10%;
         width: 50%;
     }
 
     .section5 .text-container {
-        position: relative;
         margin: 5% 10% 10%;
         width: 50%;
     }
@@ -694,6 +649,14 @@ header ul a:hover {
 
     .section6 p {
         margin-bottom: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section6 .text-container {
+        margin: 5% 10% -10%;
+        width: 50%;
+        float: left;
     }
 }
 
@@ -766,7 +729,7 @@ header ul a:hover {
 /* Breakpoint at 815px instead of 768px due to text overlap */
 
 @media only screen and (max-width: 815px) {
-    .section8 .desktop {
+    .section8 .desktop video {
         display: none;
     }
 
@@ -776,6 +739,28 @@ header ul a:hover {
 
     .section8 .text-container {
         position: relative;
+        margin: 5% 10%;
+        width: 35%;
+    }
+
+    .section8 hr {
+        display: block;
+        width: 90%;
+        margin: 10%;
+        border: 0.5px solid #b0b5bd;
+        height: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section8 .desktop .thumbnail {
+        display: none;
+    }
+
+    .section8 .text-container {
+        float: left;
+        width: 70%;
+        margin: -60% 0% 10% 10%;
     }
 }
 
@@ -839,6 +824,7 @@ header ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .section12 .text-container {
