@@ -745,8 +745,8 @@ header ul a:hover {
 
     .section8 hr {
         display: block;
-        width: 90%;
-        margin: 10%;
+        width: 80%;
+        margin: 10% 20% 10% 10%;
         border: 0.5px solid #b0b5bd;
         height: 0px;
     }
