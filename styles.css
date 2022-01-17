@@ -770,56 +770,16 @@ header ul a:hover {
 
 /* Section 9 (Vibrant Colours), 10 (Realism) & 11 (4K) */
 
-.section9, .section10, .section11 {
+.section9 .bottom, .section10 .bottom, .section11 .bottom {
     display: flex;
-    flex-direction: column;
-    margin-right: 5%;
 }
 
-.section9 .top-shadow, .section11 .top-shadow {
-    display: grid;
-    grid-template-columns: auto 63%;
+.section9 video, .section10 video, .section11 video {
+    margin-bottom: -0.7%;
 }
 
-.section9 .content, .section11 .content  {
-  display: grid;
-  grid-template-columns: 47% 46% 7%;
-}
-
-.section9 .left, .section11 .left {
-    padding: 10% 20%;
-}
-
-.section9 .right, .section11 .right {
-    display: flex;
-    flex-direction: column;
-}
-
-.section10 .top-shadow {
-    display: grid;
-    grid-template-columns: 52% auto;
-}
-
-.section10 .content {
-    display: grid;
-    grid-template-columns: 46% 7% 47%;
-}
-
-.section10 {
-    padding-left: 7%;
-}
-
-.section10 .left {
-    display: flex;
-    flex-direction: column;
-}
-
-.section10 .right {
-    padding: 10% 20% 20% 10%;
-}
-
-.right-shadow {
-    width: 82%;
+.section9 .video-container, .section10 .video-container, .section11 .video-container {
+    margin-left: 10%;
 }
 
 /* Section 12 New Worlds */
