@@ -852,7 +852,7 @@ header ul a:hover {
 .section13 {
     background-image: linear-gradient(180deg,#1000fe,#002fc3);
     color: white;
-    padding: 10% 5% 20%;
+    padding: 10% 0% 20%;
     height: 100%;
 }
 
@@ -969,6 +969,56 @@ header ul a:hover {
     margin-bottom: 20%;
     transform: scale(2.5);
     transform-origin: top;
+}
+
+@media only screen and (min-width: 768px) {
+    .section14 .description {
+        width: 50%;
+        margin: 10% 0% 5% 5%;
+    }
+
+    .section14 .games {
+        margin-bottom: 5%;
+        transform: scale(1.7);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section14 {
+        align-items: center;
+    }
+
+    .section14 .description {
+        width: 70%;
+        margin: 10% 10% 5%;
+        align-items: flex-end;
+        flex-direction: row;
+        align-self: flex-start;
+    }
+
+    .section14 .logo {
+        width: 70%;
+    }
+
+    .section14 .right {
+        width: 80%;
+        padding-left: 0%;
+    }
+
+    .section14 .games {
+        padding-bottom: 5%;
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .section14 .right {
+        padding-right: 15%;
+    }
+
+    .section14 .description {
+        margin-top: 5%;
+    }
 }
 
 /* Section 15 Links */
