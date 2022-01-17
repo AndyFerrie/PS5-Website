@@ -861,6 +861,8 @@ header ul a:hover {
     padding-right: 2%;
     display: grid;
     margin: 2% 0%;
+    overflow: visible;
+
 }
 
 .section13 img {
