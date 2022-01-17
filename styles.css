@@ -638,7 +638,7 @@ header ul a:hover {
     .section6 .text-container {
         flex-direction: column;
         display: flex;
-        margin: 10% 10% 0%;
+        margin: 10% 10% -10%;
         width: 35%;
         position: relative;
     }
