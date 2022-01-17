@@ -964,10 +964,11 @@ header ul a:hover {
 }
 
 .section14 .games {
-    padding: 5% 0%;
+    padding-bottom: 15%;
     float: left;
     margin-bottom: 20%;
     transform: scale(2.5);
+    transform-origin: top;
 }
 
 /* Section 15 Links */
