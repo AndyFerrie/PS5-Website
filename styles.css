@@ -1085,6 +1085,22 @@ header ul a:hover {
     }
 }
 
+/* Section 14 Animation */
+
+@media only screen and (min-width:1024px) {
+
+    @keyframes anim1 {
+        from {
+            transform: translateX(+99vw);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+}
+
 /* Section 15 Links */
 
 .section15 {
