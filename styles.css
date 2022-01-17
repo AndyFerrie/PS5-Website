@@ -807,9 +807,6 @@ header ul a:hover {
         max-width: 480px;
     }
 
-    /* .section9 video, .section10 video, .section11 video { 
-        margin-bottom: -1.2%;
-    } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -920,6 +917,7 @@ header ul a:hover {
     padding-right: 2%;
     display: grid;
     margin: 2% 0%;
+    height: 100%;
     overflow: visible;
 }
 
