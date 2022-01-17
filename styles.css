@@ -19,6 +19,7 @@
 html {
     margin-left: auto;
     margin-right: auto;
+    max-width: 1920px;
 }
 
 body {
@@ -183,6 +184,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
+    max-width: 1920px;
     height: 4rem; 
     background-color: white;
     display: flex;
