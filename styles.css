@@ -28,6 +28,7 @@ body {
     border: 0;
     font-family: 'sst';
     background-color: #d8dce8;
+  
 }
 
 .main-content {
@@ -766,6 +767,13 @@ header ul a:hover {
 
 /* Section 9 (Vibrant Colours), 10 (Realism) & 11 (4K) */
 
+.section9, .section10, .section11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .section9 .bottom, .section10 .bottom, .section11 .bottom {
     display: flex;
 }
@@ -775,13 +783,13 @@ header ul a:hover {
 }
 
 .section9 .video-container, .section10 .video-container, .section11 .video-container {
-    margin: 0% 7.5% 0% 15%;
+    margin: 0% 0% 0% 7.5%;
 }
 
 .section9 .description, .section10 .description, .section11 .description {
-    width: 55%;
+    width: 70%;
     float: left;
-    margin: -20% 0% 0% 15%;
+    margin: -25% 0% 0% 7.5%;
 }
 
 .section11 .description {
@@ -794,17 +802,66 @@ header ul a:hover {
     display: table;
 }
 
-@media only screen and (max-width: 400px) {
-    .section9 .video-container, .section10 .video-container, .section11 .video-container {
-        margin: 0% 0% 0% 7.5%;
+@media only screen and (min-width: 480px) {
+    .section9 .content, .section10 .content, .section11 .content {
+        max-width: 480px;
     }
 
-    .section9 .description, .section10 .description, .section11 .description {
-        margin: -25% 0% 0% 7.5%;
-        width: 70%;
+    .section9 video, .section10 video, .section11 video {
+        margin-bottom: -1.2%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section9 .content, .section10 .content, .section11 .content {
+        max-width: 768px;
+    }
+
+    .section9 video, .section10 video, .section11 video {
+        margin-bottom: -0.8%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .section9 .content, .section10 .content, .section11 .content {
+        max-width: 100%;
+        display: flex;
+    }
+
+    .section9 .content, .section11 .content {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .section9 .content {
+        margin-top: 10%;
+    }
+
+    .section9 .description, .section11 .description {
+        margin: 0;
+        width: 40%;
+        padding: 20% 5% 0% 10%;
+    }
+
+    .section10 .description {
+        margin: 0;
+        width: 40%;
+        padding: 10% 10% 0% 5%;
+    }
+
+    .section9 video, .section10 video, .section11 video {
+        margin-bottom: -1%;
     }
 
 }
+
+@media only screen and (min-width: 1366px) {
+    .section9 .description, .section10 .description, .section11 .description {
+        margin: 0;
+    }
+}
+
+
 
 /* Section 12 New Worlds */
 
