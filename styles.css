@@ -824,6 +824,10 @@ header ul a:hover {
     position: absolute;
 }
 
+.section12 .video-container {
+    margin-bottom: -1%;
+}
+
 .section12 h2 {
     font-family: 'Mont Heavy';
     font-weight: 800;
