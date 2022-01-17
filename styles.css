@@ -778,9 +778,9 @@ header ul a:hover {
     display: flex;
 }
 
-.section9 video, .section10 video, .section11 video {
-    margin-bottom: -1.1%;
-}
+.section9 video, .section10 video, .section11 video { 
+    margin-bottom: -1%;
+} 
 
 .section9 .video-container, .section10 .video-container, .section11 .video-container {
     margin: 0% 0% 0% 7.5%;
@@ -807,9 +807,9 @@ header ul a:hover {
         max-width: 480px;
     }
 
-    .section9 video, .section10 video, .section11 video {
+    /* .section9 video, .section10 video, .section11 video { 
         margin-bottom: -1.2%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -817,9 +817,9 @@ header ul a:hover {
         max-width: 768px;
     }
 
-    .section9 video, .section10 video, .section11 video {
-        margin-bottom: -0.8%;
-    }
+    .section9 video, .section10 video, .section11 video { 
+        margin-bottom: -0.65%;
+    } 
 }
 
 @media only screen and (min-width: 1024px) {
@@ -849,8 +849,8 @@ header ul a:hover {
         padding: 10% 10% 0% 5%;
     }
 
-    .section9 video, .section10 video, .section11 video {
-        margin-bottom: -1%;
+    .section9 video, .section10 video, .section11 video { 
+        margin-bottom: -0.75%;
     }
 
 }
@@ -860,8 +860,6 @@ header ul a:hover {
         margin: 0;
     }
 }
-
-
 
 /* Section 12 New Worlds */
 
@@ -964,6 +962,12 @@ header ul a:hover {
     opacity: 1;
     transform: scale(1);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+@media only screen and (min-width:1600px) {
+    .section13 .carousel-cell {
+       width: 15%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
