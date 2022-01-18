@@ -536,21 +536,25 @@
         <script src="./Flickity/flickity.js"></script>
         <script>
 
-            const images = document.querySelector('.anim');
+            const images = document.querySelectorAll('.anim');
 
-            observer = new IntersectionObserver((entries) => {
+                observer = new IntersectionObserver((entries) => {
 
-                    console.log(entries);
+                    
+                    entries.forEach(entry => {
+                        if(entry.intersectionRatio > 0) {
+                            entry.target.style.animation = `anim1 0.7s forwards ease-out`;
+                        }
+                        else {
+                            entry.target.style.animation = `none`;
+                        }
+                })
 
-                    if(entries[0].intersectionRatio > 0) {
-                        entries[0].target.style.animation = `anim1 0.7s forwards ease-out`;
-                    }
-                    else {
-                        entries[0].target.style.animation = `none`;
-                    }
+                })
+
+            images.forEach(image => {
+                observer.observe(image)
             })
-
-            observer.observe(images)
 
         </script>
     </body>

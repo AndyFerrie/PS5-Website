@@ -993,6 +993,7 @@ header ul a:hover {
     background-repeat: no-repeat;
     background-position: top right;
     background-color: #bcbbb9;
+    overflow: hidden;
 }
 
 .section14 .description {
