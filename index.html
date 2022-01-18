@@ -469,7 +469,7 @@
                         <a href="#" class="button">Learn more</a>
                     </div>
                 </div>
-                <div class="image-container anim">
+                <div class="image-container">
                     <img class="games" src="./Images/psplus-games.png" alt="">
                 </div>
             </div>
@@ -534,28 +534,6 @@
         
         <script src="" a sync defer></script>
         <script src="./Flickity/flickity.js"></script>
-        <script>
 
-            const images = document.querySelectorAll('.anim');
-
-                observer = new IntersectionObserver((entries) => {
-
-                    
-                    entries.forEach(entry => {
-                        if(entry.intersectionRatio > 0) {
-                            entry.target.style.animation = `anim1 0.7s forwards ease-out`;
-                        }
-                        else {
-                            entry.target.style.animation = `none`;
-                        }
-                })
-
-                })
-
-            images.forEach(image => {
-                observer.observe(image)
-            })
-
-        </script>
     </body>
 </html>
