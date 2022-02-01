@@ -22,12 +22,12 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     border: 0;
     font-family: 'sst';
     background-color: #d8dce8;
-  
+    max-width: 2560px;
 }
 
 .main-content {
@@ -189,6 +189,8 @@ header {
     align-items: center;
     justify-content: center;
     height: 4rem;
+    max-width: 2560px;
+    margin: 0 auto;
 }
 
 header a {
